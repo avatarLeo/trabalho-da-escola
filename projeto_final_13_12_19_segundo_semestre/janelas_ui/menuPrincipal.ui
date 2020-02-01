@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>janelaPrincipal</class>
+ <widget class="QMainWindow" name="janelaPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>329</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Seja Bem Vindo Ao Mine Suap</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="gpb_menu">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>501</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Mine Suap</string>
+    </property>
+    <widget class="QPushButton" name="btn_matricula">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Matricula</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_mostrar_2">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>120</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_pesquisar">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>30</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pesquisar Alunos</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_mostrar_notas">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>120</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mostrar Notas</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_notas">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>120</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Adicionar Notas</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_mostrar">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mostrar Alunos</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_editar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Editar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_excluir">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>30</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Excluir</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
